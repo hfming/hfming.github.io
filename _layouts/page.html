@@ -101,52 +101,62 @@ layout: default
 						<!-- SNS Link -->
 						<ul class="list-inline">
 
-							<!-- add CSDN  -->
+							<!-- add csdn -->
 							{% if site.csdn_username %}
-		                        <li>
-		                            <a target="_blank" href="https://blog.csdn.net/{{ site.csdn_username }}">
-		                                <span class="fa-stack fa-lg">
-		                                    <i class="fa fa-circle fa-stack-2x"></i>
-		                                    <i class="fa  fa-stack-1x fa-inverse">C</i>
-		                                </span>
-		                            </a>
-		                        </li>
-		                    {% endif %}
+							<li>
+								<a target="_blank" href="https://blog.csdn.net/{{ site.csdn_username }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-stack-1x fa-inverse">C</i>
+                                </span>
+								</a>
+							</li>
+							{% endif %}
 
 							<!-- add zhihu -->
 							{% if site.zhihu_username %}
-								<li>
-									<a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa  fa-stack-1x fa-inverse">知</i>
-										</span>
-									</a>
-								</li>
+							<li>
+								<a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-stack-1x fa-inverse">知</i>
+                                </span>
+								</a>
+							</li>
 							{% endif %}
 
-							<!-- add FaceBook -->
-							{% if site.gitee_username %}
-								<li>
-									<a target="_blank" href="https://www.gitee.com/{{ site.gitee_username }}">
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-stack-1x fa-inverse">G</i>
-										</span>
-									</a>
-								</li>
-							{% endif %}
-
-							<!-- add Github -->
+							<!-- add Github  -->
 							{% if site.github_username %}
-								<li>
-									<a target="_blank" href="https://github.com/{{ site.github_username }}">
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-										</span>
-									</a>
-								</li>
+							<li>
+								<a target="_blank" href="https://github.com/{{ site.github_username }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+								</a>
+							</li>
+							{% endif %}
+							<!-- add Gitee  -->
+							{% if site.gitee_username %}
+							<li>
+								<a target="_blank" href="https://gitee.com/{{ site.gitee_username }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-stack-1x fa-inverse">G</i>
+                                </span>
+								</a>
+							</li>
+							{% endif %}
+							<!-- add wordpress  -->
+							{% if site.wordpress_username %}
+							<li>
+								<a target="_blank" href="https://{{ site.wordpress_username }}.com/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-wordpress fa-stack-1x fa-inverse"></i>
+                                </span>
+								</a>
+							</li>
 							{% endif %}
 
 						</ul>
