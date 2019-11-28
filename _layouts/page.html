@@ -30,23 +30,6 @@ layout: default
 			<!-- Sidebar Container -->
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 sidebar-container">
 
-				<!-- Featured Tags -->
-				{% if site.featured-tags %}
-					<section>
-						<!-- no hr -->
-						<h5><a href="{{'/tags/' | prepend: site.baseurl }}">标签</a></h5>
-						<div class="tags">
-							{% for tag in site.tags %}
-								{% if tag[1].size > site.featured-condition-size %}
-									<a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-										{{ tag[0] }}
-									</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-					</section>
-				{% endif %}
-
 				<!-- Friends Blog -->
 				{% if site.friends %}
 				<hr>
@@ -68,28 +51,10 @@ layout: default
 		</div>
 		<!-- Sidebar Container -->
 		<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12 col-xs-12 sidebar-container">
-
-			<!-- Featured Tags -->
-			{% if site.featured-tags %}
-				<section>
-					<hr class="hidden-sm hidden-xs">
-					<h5><a href="{{'/tags/' | prepend: site.baseurl }}">标签</a></h5>
-					<div class="tags">
-						{% for tag in site.tags %}
-							{% if tag[1].size > site.featured-condition-size %}
-								<a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-									{{ tag[0] }}
-								</a>
-							{% endif %}
-						{% endfor %}
-					</div>
-				</section>
-			{% endif %}
-
 				<!-- Short About -->
 				<section class="visible-md visible-lg">
 					<hr>
-					<h5><a href="{{'/about/' | prepend: site.baseurl }}">简介</a></h5>
+					<h5><a href="{{'/about/' | prepend: site.baseurl }}">个人简介</a></h5>
 					<div class="short-about">
 						{% if site.sidebar-avatar %}
 							<a href="{{ site.baseurl }}/about">
@@ -127,12 +92,12 @@ layout: default
 							{% endif %}
 
 							<!-- add FaceBook -->
-							{% if site.facebook_username %}
+							{% if site.gitee_username %}
 								<li>
-									<a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+									<a target="_blank" href="https://www.gitee.com/{{ site.gitee_username }}">
 										<span class="fa-stack fa-lg">
 											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+											<i class="fa fa-stack-1x fa-inverse">G</i>
 										</span>
 									</a>
 								</li>
@@ -169,7 +134,6 @@ layout: default
 					</ul>
 				{% endif %}
 			</div>
-			
 		{% endif %}
 	</div>
 </div>
