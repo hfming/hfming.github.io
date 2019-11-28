@@ -1,15 +1,15 @@
 {
-  "name": "hfming",
-  "short_name": "hfming",
-  "description": "",
+  "name": "青泉博客",
+  "short_name": "青泉",
+  "description": "my personal blog",
   "icons": [{
     "src": "icons/图标1.jpg",
     "sizes": "60x60",
-    "type": "image/jpg"
+    "type": "image"
   }, {
     "src": "icons/图标2.jpg",
     "sizes": "120x120",
-    "type": "image/jpg"
+    "type": "image"
   }],
   "background_color": "#fff",
   "theme_color": "#000",
