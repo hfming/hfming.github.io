@@ -1,10 +1,10 @@
 # Site settings | 网站设置
-title: hfming
-SEOTitle: hfming的博客
+title: 青泉博客
+SEOTitle: hfming 博客 | 青泉博客
 header-img: img/首页标题背景.jpg
 email: hfming2016@163.com
-description: "hfming 的博客"
-keyword: "hfming, hfming的博客, java blog"
+description: "hfming 博客"
+keyword: "hfming, hfming 博客, 青泉博客, java blog, blog, java"
 url: "http://hfming.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/hfming/hfming.github.io.git" #code repository | 代码仓库
