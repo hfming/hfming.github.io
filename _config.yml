@@ -80,9 +80,6 @@ service-worker: true
         title: "知乎·hfming2016",
         href: "https://www.zhihu.com/people/hfming2016"
     },{
-        title: "GitBook·hfming",
-        href: "https://legacy.gitbook.com/@hfming"
-    },{
         title: "Gitee·hfming2016",
         href: "https://gitee.com/hfming2016"
     },{
