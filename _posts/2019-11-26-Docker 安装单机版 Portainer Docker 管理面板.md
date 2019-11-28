@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Portainer
-subtitle:   Docker 安装单机版 Portainer Docker 管理面板
+title:      Docker Swarm 集群创建、配置及 Portainer 可视化管理
+subtitle:   
 date:       2019-11-26
 author:     hfming
 header-img: img/首页标题背景.jpg
