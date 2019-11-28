@@ -1,14 +1,14 @@
 {
-  "name": "RainbomSea",
-  "short_name": "RainbomSea",
-  "description": "就算这样, 也要笑着去努力啊",
+  "name": "hfming",
+  "short_name": "hfming",
+  "description": "",
   "icons": [{
-    "src": "icons/pwa_icon_64.ico",
-    "sizes": "64x64",
+    "src": "icons/图标.jpg",
+    "sizes": "600x600",
     "type": "image/ico"
   }, {
-    "src": "icons/pwa_icon_128.ico",
-    "sizes": "128x128",
+    "src": "icons/图标.jpg",
+    "sizes": "600x600",
     "type": "image/ico"
   }],
   "background_color": "#fff",
