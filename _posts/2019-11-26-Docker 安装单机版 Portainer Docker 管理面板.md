@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      搭建我的个人博客
+title:      Docker
 subtitle:   Docker 安装单机版 Portainer Docker 管理面板
 date:       2019-11-26
 author:     hfming
 header-img: img/home-bg-o.jpg
 catalog: true
 tags:
-    - Blog
+    - 
 ---
 
 # 1.选择镜像
