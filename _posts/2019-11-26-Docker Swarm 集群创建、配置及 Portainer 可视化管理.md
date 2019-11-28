@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Docker
+title:      Docker Swarm
 subtitle:   Docker 安装单机版 Portainer Docker 管理面板
 date:       2019-11-26
 author:     hfming
