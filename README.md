@@ -1,19 +1,18 @@
-# RainbomSea.github.io
+# hfming.github.io
 
-> 复制大佬过来的模板， 页面自己写是不可能的，一辈子都是不可能的了。
+## 个人网站地址
+<div> WordPress 版 <a href="www.hfming.com">www.hfming.com</a></div>
+<div> GitHub 版 <a href="github.hfming.com">github.hfming.com </a></div>
 
-## 网站地址
+## GitHub 版个人博客页面样例
 
-[RainbomSea.xyz](http://rainbomsea.xyz/)
+![GitHub 版]()
 
-## 示例截图，嘿嘿，还是蛮好看的吧
+## WordPress 版个人博客页面样例
+![WordPress 版](https://hfm-wp.oss-cn-hangzhou.aliyuncs.com/%E5%85%B6%E4%BB%96/wordpress%20%E5%8D%9A%E5%AE%A2%E6%88%AA%E5%9B%BE.png)
 
-![示例图片](http://bolg-images.oss-cn-shenzhen.aliyuncs.com/18-12-7/24840818.jpg)
+## 主题原作者 GitHub 地址
+[qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io)
 
-## 自己写的教程
-
-[GitHub Pages 快速搭建自己的博客](http://rainbomsea.xyz/2018/10/01/%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
-
-## 大佬的教程 还是大佬的教程比较详细吧
-
+## 主题原作者图文教程
 [利用 GitHub Pages 快速搭建个人博客](https://www.jianshu.com/p/e68fba58f75c)
