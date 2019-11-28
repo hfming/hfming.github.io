@@ -1,13 +1,14 @@
 ---
 layout:     post
-title:      Docker
+title:      Portainer
 subtitle:   Docker 安装单机版 Portainer Docker 管理面板
 date:       2019-11-26
 author:     hfming
 header-img: img/首页标题背景.jpg
 catalog: true
 tags:
-    - 
+    - portainer 
+    - docker 
 ---
 
 # 1.选择镜像

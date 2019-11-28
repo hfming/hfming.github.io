@@ -7,7 +7,9 @@ author:     hfming
 header-img: img/首页标题背景.jpg
 catalog: true
 tags:
-    - 
+    - docekr 
+    - portainer
+    - swram
 ---
 
 # 1.环境准备
