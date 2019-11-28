@@ -4,11 +4,11 @@
   "description": "",
   "icons": [{
     "src": "icons/图标.jpg",
-    "sizes": "600x600",
+    "sizes": "60x60",
     "type": "image/ico"
   }, {
     "src": "icons/图标.jpg",
-    "sizes": "600x600",
+    "sizes": "60x60",
     "type": "image/ico"
   }],
   "background_color": "#fff",
