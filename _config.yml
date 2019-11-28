@@ -58,7 +58,7 @@ distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 # 统计
 # Analytics settings
 # Baidu Analytics
-ba_track_id:
+ba_track_id: fd0ddd4dd9b56f7f3591bd3b26f32147
 
 # Google Analytics
 ga_track_id:            # Format: UA-xxxxxx-xx
