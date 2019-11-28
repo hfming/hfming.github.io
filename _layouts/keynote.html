@@ -46,7 +46,7 @@ layout: default
                         {% comment %} if page.subtitle {% endcomment %}
                         <h2 class="subheading">{{ page.subtitle }}</h2>
                         {% comment %} endif {% endcomment %}
-                        <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                        <span class="meta">作者: {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} 时间: {{ page.date | date: "%B %-d, %Y" }}</span>
                     </div>
                 </div>
             </div>
@@ -58,17 +58,12 @@ layout: default
 <article>
     <div class="container">
         <div class="row">
-
             <!-- Post Container -->
             <div class="post-container
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1 ">
-
 				{{ content }}
-
                 <hr style="visibility: hidden;">
-
-
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
@@ -87,13 +82,11 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-
                 <!-- Gitalk 评论 start  -->
                 {% if site.gitalk.enable %}
                 <!-- Gitalk link  -->
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
                 <div id="gitalk-container"></div>
                     <script type="text/javascript">
                     var gitalk = new Gitalk({
@@ -108,7 +101,6 @@ layout: default
                 </script>
                 {% endif %}
                 <!-- Gitalk end -->
-
                 {% if site.disqus.enable %}
                 <!-- disqus 评论框 start -->
                 <div class="comment">
@@ -118,19 +110,16 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
-
             </div>
-
             <!-- Sidebar Container -->
             <div class="sidebar-container
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1 ">
-
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <h5><a href="/tags/">标签云</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -142,7 +131,6 @@ layout: default
                     </div>
                 </section>
                 {% endif %}
-
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
@@ -157,7 +145,6 @@ layout: default
         </div>
     </div>
 </article>
-
 <!-- resize header to fullscreen keynotes -->
 <script>
     var $header = document.getElementsByTagName("header")[0];
@@ -180,9 +167,6 @@ layout: default
     })
     resize();
 </script>
-
-
-
 {% if site.disqus.enable %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -199,8 +183,6 @@ layout: default
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
-
-
 {% if site.anchorjs %}
 <!-- async load function -->
 <script>

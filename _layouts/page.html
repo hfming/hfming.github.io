@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
 	<div class="container">
@@ -16,12 +15,10 @@ layout: default
 		</div>
 	</div>
 </header>
-
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
 		{% if site.sidebar == false %}
-
 			<!-- NO SIDEBAR -->
 			<!-- PostList Container -->
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container">
@@ -29,7 +26,6 @@ layout: default
 			</div>
 			<!-- Sidebar Container -->
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 sidebar-container">
-
 				<!-- Featured Tags -->
 				{% if site.featured-tags %}
 				<section>
@@ -46,7 +42,6 @@ layout: default
 					</div>
 				</section>
 				{% endif %}
-
 				<!-- Friends Blog -->
 				{% if site.friends %}
 				<hr>
@@ -58,9 +53,7 @@ layout: default
 				</ul>
 				{% endif %}
 			</div>
-
 		{% else %}
-
 		<!-- USE SIDEBAR -->
 		<!-- PostList Container -->
 		<div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 postlist-container">
@@ -84,7 +77,6 @@ layout: default
 				</div>
 			</section>
 			{% endif %}
-
 				<!-- Short About -->
 				<section class="visible-md visible-lg">
 					<hr>
@@ -100,7 +92,6 @@ layout: default
 						{% endif %}
 						<!-- SNS Link -->
 						<ul class="list-inline">
-
 							<!-- add csdn -->
 							{% if site.csdn_username %}
 							<li>
@@ -112,7 +103,6 @@ layout: default
 								</a>
 							</li>
 							{% endif %}
-
 							<!-- add zhihu -->
 							{% if site.zhihu_username %}
 							<li>
@@ -165,18 +155,6 @@ layout: default
 						{% endif %}
 					</div>
 				</section>
-				<!-- Friends Blog -->
-				{% if site.friends %}
-					<hr>
-					<h5>链接</h5>
-					<ul class="list-inline">
-						{% for friend in site.friends %}
-							<li>
-								<a href="{{friend.href}}">{{friend.title}}</a>
-							</li>
-						{% endfor %}
-					</ul>
-				{% endif %}
 			</div>
 		{% endif %}
 	</div>

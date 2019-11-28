@@ -47,13 +47,13 @@ input: GFM                            # use Github Flavored Markdown !important
 
 # Gitalk
 gitalk:
-enable: true    # 是否开启Gitalk评论
-clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
-clientSecret: a866f00709e418ffd35d9986e130ff7f01a3cba2    #生成的clientSecret
-repo: hfming.github.io    #仓库名称
-owner: hfming    # github用户名
-admin: hfming
-distractionFreeMode: true # 是否启用类似FB的阴影遮罩
+        enable: true    # 是否开启Gitalk评论
+        clientID: f098e835226554c7732c                          #生成的clientID
+        clientSecret: 1daf8a0bdbe1d830d5816db9c9345ffdfc27dde2   #生成的clientSecret
+        repo: hfming.github.io    #仓库名称
+        owner: hfming    # github用户名
+        admin: hfming
+        distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 
 # 统计
 # Analytics settings
