@@ -3,13 +3,13 @@
   "short_name": "hfming",
   "description": "",
   "icons": [{
-    "src": "icons/图标.jpg",
-    "sizes": "60x60",
-    "type": "image/ico"
+    "src": "img/头像.jpg",
+    "sizes": "400x400",
+    "type": "image/jpg"
   }, {
-    "src": "icons/图标.jpg",
-    "sizes": "60x60",
-    "type": "image/ico"
+    "src": "img/头像.jpg",
+    "sizes": "400x400",
+    "type": "image/jpg"
   }],
   "background_color": "#fff",
   "theme_color": "#000",
