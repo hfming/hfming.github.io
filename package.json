@@ -1,14 +1,14 @@
 {
-    "name": "RainbomSea",
-    "title": "RainbomSea",
-    "author": "BY <RainbomSea@qq.com>",
-    "version": "1.1.0",
-    "homepage": "http://RainbomSea.github.io",
+    "name": "青泉博客",
+    "title": "青泉博客",
+    "author": "BY <hfming2016@163.com>",
+    "version": "1.1.1",
+    "homepage": "https://hfming.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/RainbomSea/RainbomSea.github.io"
+        "url": "https://github.com/hfming/hfming.github.io"
     },
-    "bugs": "https://github.com/RainbomSea/RainbomSea.github.io/issues",
+    "bugs": "https://github.com/hfming/hfming.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",

@@ -3,11 +3,11 @@
   "short_name": "青泉",
   "description": "my personal blog",
   "icons": [{
-    "src": "icons/图标1.jpg",
+    "src": "https://hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E6%A0%87.jpg",
     "sizes": "60x60",
     "type": "image"
   }, {
-    "src": "icons/图标2.jpg",
+    "src": "https://hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E6%A0%87.jpg",
     "sizes": "120x120",
     "type": "image"
   }],
