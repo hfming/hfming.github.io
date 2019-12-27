@@ -3,11 +3,11 @@
   "short_name": "青泉",
   "description": "my personal blog",
   "icons": [{
-    "src": "https://hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E6%A0%87.jpg",
-    "sizes": "60x60",
+    "src": "/hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E6%A0%87.jpg",
+    "sizes": "120x120",
     "type": "image"
   }, {
-    "src": "https://hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E6%A0%87.jpg",
+    "src": "/hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E6%A0%87.jpg",
     "sizes": "120x120",
     "type": "image"
   }],
