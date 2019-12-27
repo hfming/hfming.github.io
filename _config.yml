@@ -13,7 +13,7 @@ github_repo: "https://github.com/hfming/hfming.github.io.git" #code repository |
 # Sidebar settings | 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: ""
-sidebar-avatar: /img/头像.png
+sidebar-avatar: "https://hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E4%B8%AA%E4%BA%BA%E5%BE%AE%E4%BF%A1%E5%9B%BE%E6%A0%87.png"
 
 # SNS settings | 社交网络设置
 facebook_username:
