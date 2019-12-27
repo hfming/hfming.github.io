@@ -1,7 +1,7 @@
 # Site settings | 网站设置
 title: 青泉博客
 SEOTitle: hfming 博客 | 青泉博客
-header-img: https://hfm-blog.oss-cn-hangzhou.aliyuncs.com/github/hfming.github.io/coffee-java.jpg
+header-img: /hfm-blog.oss-cn-hangzhou.aliyuncs.com/github/hfming.github.io/coffee-java.jpg
 email: hfming2016@163.com
 description: "hfming 博客"
 keyword: "hfming, hfming 博客, 青泉博客, java blog, blog, java"
