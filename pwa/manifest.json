@@ -2,15 +2,6 @@
   "name": "青泉博客",
   "short_name": "青泉",
   "description": "my personal blog",
-  "icons": [{
-    "src": "/hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E6%A0%87.png",
-    "sizes": "120x120",
-    "type": "image/png"
-  }, {
-    "src": "/hfm-resume.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E6%A0%87.png",
-    "sizes": "120x120",
-    "type": "image/png"
-  }],
   "background_color": "#fff",
   "theme_color": "#000",
   "start_url": "/",
