@@ -1,7 +1,7 @@
 # hfming.github.io
 ## 个人网站地址
-<div> WordPress 版 <a href="www.hfming.com">www.hfming.com</a></div>
-<div> GitHub 版 <a href="github.hfming.com">github.hfming.com </a></div>
+<div> WordPress 版 <a href="www.hfming.com">www.hfming.cn</a></div>
+<div> GitHub 版 <a href="github.hfming.com">github.hfming.cn </a></div>
 
 ## GitHub 版个人博客页面样例
 
